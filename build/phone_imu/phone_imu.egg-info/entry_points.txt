@@ -1,3 +1,0 @@
-[console_scripts]
-imu_filter_node = phone_imu.imu_filter_node:main
-phone_imu_node = phone_imu.phone_imu_node:main

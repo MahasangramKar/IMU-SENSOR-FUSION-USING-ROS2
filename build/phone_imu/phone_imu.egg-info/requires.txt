@@ -1,5 +1,0 @@
-requests
-setuptools
-
-[test]
-pytest
