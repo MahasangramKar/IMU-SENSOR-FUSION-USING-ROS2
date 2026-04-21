@@ -1,15 +1,9 @@
 🚀 IMU Sensor Fusion using ROS 2
-
-
-
-
-
-
 📌 Overview
 
-This project implements real-time IMU sensor fusion using ROS 2 to estimate accurate orientation (roll, pitch, yaw).
+This project performs real-time IMU sensor fusion using ROS 2 to estimate accurate roll, pitch, and yaw.
 
-It combines data from:
+It combines:
 
 Accelerometer
 Gyroscope
@@ -18,18 +12,19 @@ Gyroscope
 to achieve stable and drift-free orientation for robotics applications.
 
 🎯 Objectives
-📡 Acquire real-time IMU data
-🧠 Implement sensor fusion algorithms
-📤 Publish filtered orientation using ROS 2 topics
-📊 Visualize results in RViz
+
+Acquire real-time IMU data
+Implement sensor fusion algorithms
+Publish filtered orientation via ROS 2 topics
+Visualize results in RViz
 🧠 Sensor Fusion Concept
 
 IMU sensors have limitations:
 
-Accelerometer → Noisy, stable long-term
-Gyroscope → Smooth, but drifts
+Accelerometer: Noisy but stable (long-term)
+Gyroscope: Smooth but drifts over time
 
-👉 Fusion combines both for accurate estimation.
+Sensor fusion combines both for accurate estimation.
 
 🏗️ System Architecture
 
@@ -41,18 +36,19 @@ Fusion Node
    ↓
 /imu/data
    ↓
-RViz Visualization
+RViz
 
 📦 ROS 2 Nodes
-🔹 imu_node
+
+imu_node
 Reads raw IMU data
-Publishes: /imu/raw
-🔹 fusion_node
+Publishes /imu/raw
+fusion_node
 Applies fusion algorithm
-Publishes: /imu/data
+Publishes /imu/data
 
 ⚙️ Tech Stack
 ROS 2 (Humble / Foxy)
 Python / C++
-IMU: MPU6050 / MPU9250
+MPU6050 / MPU9250
 RViz
