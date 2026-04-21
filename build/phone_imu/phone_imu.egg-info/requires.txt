@@ -1,0 +1,5 @@
+requests
+setuptools
+
+[test]
+pytest

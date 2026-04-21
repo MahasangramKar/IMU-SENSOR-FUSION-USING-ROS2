@@ -1,0 +1,43 @@
+[0.599s] Invoking command in '/home/prem/ros2_gyro/build/phone_imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prem/ros2_gyro/build/phone_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/prem/ros2_gyro/build/phone_imu/build
+[0.817s] running develop
+[0.962s] Removing /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone-imu.egg-link (link to .)
+[0.989s] Invoked command in '/home/prem/ros2_gyro/build/phone_imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prem/ros2_gyro/build/phone_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/prem/ros2_gyro/build/phone_imu/build
+[0.990s] Invoking command in '/home/prem/ros2_gyro/src/phone_imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prem/ros2_gyro/build/phone_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/phone_imu build --build-base /home/prem/ros2_gyro/build/phone_imu/build install --record /home/prem/ros2_gyro/build/phone_imu/install.log --single-version-externally-managed install_data --force
+[1.184s] running egg_info
+[1.198s] writing ../../build/phone_imu/phone_imu.egg-info/PKG-INFO
+[1.198s] writing dependency_links to ../../build/phone_imu/phone_imu.egg-info/dependency_links.txt
+[1.198s] writing entry points to ../../build/phone_imu/phone_imu.egg-info/entry_points.txt
+[1.198s] writing requirements to ../../build/phone_imu/phone_imu.egg-info/requires.txt
+[1.199s] writing top-level names to ../../build/phone_imu/phone_imu.egg-info/top_level.txt
+[1.228s] reading manifest file '../../build/phone_imu/phone_imu.egg-info/SOURCES.txt'
+[1.229s] writing manifest file '../../build/phone_imu/phone_imu.egg-info/SOURCES.txt'
+[1.229s] running build
+[1.229s] running build_py
+[1.229s] creating /home/prem/ros2_gyro/build/phone_imu/build
+[1.230s] creating /home/prem/ros2_gyro/build/phone_imu/build/lib
+[1.230s] creating /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+[1.230s] copying phone_imu/phone_imu_node.py -> /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+[1.230s] copying phone_imu/imu_filter_node.py -> /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+[1.230s] copying phone_imu/__init__.py -> /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+[1.230s] running install
+[1.234s] running install_lib
+[1.249s] creating /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+[1.249s] copying /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu/phone_imu_node.py -> /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+[1.249s] copying /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu/imu_filter_node.py -> /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+[1.249s] copying /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu/__init__.py -> /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+[1.249s] byte-compiling /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu/phone_imu_node.py to phone_imu_node.cpython-312.pyc
+[1.250s] byte-compiling /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu/imu_filter_node.py to imu_filter_node.cpython-312.pyc
+[1.251s] byte-compiling /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu/__init__.py to __init__.cpython-312.pyc
+[1.252s] running install_data
+[1.252s] copying resource/phone_imu -> /home/prem/ros2_gyro/install/phone_imu/share/ament_index/resource_index/packages
+[1.252s] copying package.xml -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu
+[1.252s] copying launch/phone_imu_launch.py -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/launch
+[1.252s] copying config/imu_rviz.rviz -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/config
+[1.252s] copying urdf/phone.urdf -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/urdf
+[1.252s] running install_egg_info
+[1.267s] Copying ../../build/phone_imu/phone_imu.egg-info to /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu-0.1.0-py3.12.egg-info
+[1.268s] running install_scripts
+[1.367s] Installing imu_filter_node script to /home/prem/ros2_gyro/install/phone_imu/lib/phone_imu
+[1.368s] Installing phone_imu_node script to /home/prem/ros2_gyro/install/phone_imu/lib/phone_imu
+[1.368s] writing list of installed files to '/home/prem/ros2_gyro/build/phone_imu/install.log'
+[1.392s] Invoked command in '/home/prem/ros2_gyro/src/phone_imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/prem/ros2_gyro/build/phone_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/phone_imu build --build-base /home/prem/ros2_gyro/build/phone_imu/build install --record /home/prem/ros2_gyro/build/phone_imu/install.log --single-version-externally-managed install_data --force

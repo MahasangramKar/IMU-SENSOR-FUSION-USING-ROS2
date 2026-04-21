@@ -1,0 +1,6 @@
+source;share/phone_imu/hook/pythonpath.dsv
+source;share/phone_imu/hook/pythonpath.sh
+source;share/phone_imu/hook/ament_prefix_path.dsv
+source;share/phone_imu/hook/ament_prefix_path.sh
+source;../../build/phone_imu/share/phone_imu/hook/pythonpath_develop.dsv
+source;../../build/phone_imu/share/phone_imu/hook/pythonpath_develop.sh

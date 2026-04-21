@@ -1,0 +1,39 @@
+running develop
+Removing /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone-imu.egg-link (link to .)
+running egg_info
+writing ../../build/phone_imu/phone_imu.egg-info/PKG-INFO
+writing dependency_links to ../../build/phone_imu/phone_imu.egg-info/dependency_links.txt
+writing entry points to ../../build/phone_imu/phone_imu.egg-info/entry_points.txt
+writing requirements to ../../build/phone_imu/phone_imu.egg-info/requires.txt
+writing top-level names to ../../build/phone_imu/phone_imu.egg-info/top_level.txt
+reading manifest file '../../build/phone_imu/phone_imu.egg-info/SOURCES.txt'
+writing manifest file '../../build/phone_imu/phone_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/prem/ros2_gyro/build/phone_imu/build
+creating /home/prem/ros2_gyro/build/phone_imu/build/lib
+creating /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+copying phone_imu/phone_imu_node.py -> /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+copying phone_imu/imu_filter_node.py -> /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+copying phone_imu/__init__.py -> /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu
+running install
+running install_lib
+creating /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+copying /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu/phone_imu_node.py -> /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+copying /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu/imu_filter_node.py -> /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+copying /home/prem/ros2_gyro/build/phone_imu/build/lib/phone_imu/__init__.py -> /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu
+byte-compiling /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu/phone_imu_node.py to phone_imu_node.cpython-312.pyc
+byte-compiling /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu/imu_filter_node.py to imu_filter_node.cpython-312.pyc
+byte-compiling /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/phone_imu -> /home/prem/ros2_gyro/install/phone_imu/share/ament_index/resource_index/packages
+copying package.xml -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu
+copying launch/phone_imu_launch.py -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/launch
+copying config/imu_rviz.rviz -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/config
+copying urdf/phone.urdf -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/urdf
+running install_egg_info
+Copying ../../build/phone_imu/phone_imu.egg-info to /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone_imu-0.1.0-py3.12.egg-info
+running install_scripts
+Installing imu_filter_node script to /home/prem/ros2_gyro/install/phone_imu/lib/phone_imu
+Installing phone_imu_node script to /home/prem/ros2_gyro/install/phone_imu/lib/phone_imu
+writing list of installed files to '/home/prem/ros2_gyro/build/phone_imu/install.log'

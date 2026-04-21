@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing phone_imu.egg-info/PKG-INFO
+writing dependency_links to phone_imu.egg-info/dependency_links.txt
+writing entry points to phone_imu.egg-info/entry_points.txt
+writing requirements to phone_imu.egg-info/requires.txt
+writing top-level names to phone_imu.egg-info/top_level.txt
+reading manifest file 'phone_imu.egg-info/SOURCES.txt'
+writing manifest file 'phone_imu.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/prem/ros2_gyro/install/phone_imu/lib/python3.12/site-packages/phone-imu.egg-link (link to .)
+Installing imu_filter_node script to /home/prem/ros2_gyro/install/phone_imu/lib/phone_imu
+Installing phone_imu_node script to /home/prem/ros2_gyro/install/phone_imu/lib/phone_imu
+
+Installed /home/prem/ros2_gyro/build/phone_imu
+running symlink_data
+symbolically linking /home/prem/ros2_gyro/build/phone_imu/resource/phone_imu -> /home/prem/ros2_gyro/install/phone_imu/share/ament_index/resource_index/packages
+symbolically linking /home/prem/ros2_gyro/build/phone_imu/package.xml -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu
+symbolically linking /home/prem/ros2_gyro/build/phone_imu/launch/phone_imu_launch.py -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/launch
+symbolically linking /home/prem/ros2_gyro/build/phone_imu/config/imu_rviz.rviz -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/config
+symbolically linking /home/prem/ros2_gyro/build/phone_imu/urdf/phone.urdf -> /home/prem/ros2_gyro/install/phone_imu/share/phone_imu/urdf
